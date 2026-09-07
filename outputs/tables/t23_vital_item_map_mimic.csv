@@ -1,0 +1,16 @@
+vital,itemid,label
+hr,220045,Heart Rate
+sbp,220050,Arterial Blood Pressure systolic
+sbp,220179,Non Invasive Blood Pressure systolic
+dbp,220051,Arterial Blood Pressure diastolic
+dbp,220180,Non Invasive Blood Pressure diastolic
+map,220052,Arterial Blood Pressure mean
+map,220181,Non Invasive Blood Pressure mean
+rr,220210,Respiratory Rate
+spo2,220277,O2 saturation pulseoxymetry
+temp_c,223762,Temperature Celsius
+temp_f,223761,Temperature Fahrenheit
+gcs_eye,220739,GCS - Eye Opening
+gcs_verbal,223900,GCS - Verbal Response
+gcs_motor,223901,GCS - Motor Response
+fio2,223835,Inspired O2 Fraction

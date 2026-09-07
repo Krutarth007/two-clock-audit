@@ -1,0 +1,7 @@
+cohort,arm,alerts per 100 bed-days,detection rate (%),median lead (h),NNA
+MIMIC-IV test,"Model, observation clock",19.68,56.2,2.27,3.1
+MIMIC-IV test,"Model, availability clock",20.46,56.55,2.27,3.2
+MIMIC-IV test,NEWS2 (latency-insensitive),13.87,11.69,6.78,10.5
+eICU-CRD external,"Model, observation clock",20.03,29.27,5.85,9.2
+eICU-CRD external,"Model, availability clock",19.44,28.1,5.85,9.3
+eICU-CRD external,NEWS2 (latency-insensitive),7.35,8.45,7.11,11.7

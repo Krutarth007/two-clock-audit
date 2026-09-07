@@ -1,0 +1,5 @@
+step,n_stays,excluded
+first unit stay of hospital admission,158442,0
+first admission per patient,133492,24950
+age 18-120,132981,511
+ICU stay 12-720 h,120354,12627

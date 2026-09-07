@@ -1,0 +1,17 @@
+cohort,model,clock,AUROC,AUPRC,Brier
+MIMIC-IV test,trained_obs,scored_obs,0.8241,0.3047,0.0217
+MIMIC-IV test,trained_obs,scored_avail,0.8222,0.2991,0.0218
+MIMIC-IV test,trained_avail,scored_obs,0.8243,0.2935,0.022
+MIMIC-IV test,trained_avail,scored_avail,0.8233,0.2983,0.0219
+MIMIC-IV test,NEWS2,latency-insensitive,0.6124,0.0451,
+MIMIC-IV test,qSOFA,latency-insensitive,0.5905,0.036,
+MIMIC-IV test,"NEWS2 (matched, no consciousness)",latency-insensitive,0.6171,0.0436,
+MIMIC-IV test,"qSOFA (matched, no consciousness)",latency-insensitive,0.5757,0.0338,
+eICU-CRD external,trained_obs,scored_obs,0.7171,0.068,0.0219
+eICU-CRD external,trained_obs,scored_avail,0.7107,0.065,0.0219
+eICU-CRD external,trained_avail,scored_obs,0.7296,0.0725,0.0216
+eICU-CRD external,trained_avail,scored_avail,0.7224,0.0688,0.0214
+eICU-CRD external,NEWS2,latency-insensitive,0.5794,0.0304,
+eICU-CRD external,qSOFA,latency-insensitive,0.5483,0.0236,
+eICU-CRD external,"NEWS2 (matched, no consciousness)",latency-insensitive,0.5794,0.0304,
+eICU-CRD external,"qSOFA (matched, no consciousness)",latency-insensitive,0.5483,0.0236,

@@ -1,0 +1,6 @@
+,MIMIC-IV,eICU-CRD
+scoring hours,"823,501","1,892,310"
+stays,"29,635","67,167"
+"positive hours, n (%)","24,718 (3.00%)","39,134 (2.07%)"
+stays with >=1 positive hour,"3,497","5,041"
+"hours per stay, median",28,29

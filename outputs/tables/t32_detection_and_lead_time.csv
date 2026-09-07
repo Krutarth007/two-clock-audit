@@ -1,0 +1,15 @@
+,MIMIC-IV test,eICU-CRD external
+stays with escalation,847,"5,846"
+"detected, observation clock",476 (56.2%),"1,711 (29.3%)"
+"detected, availability clock",479 (56.6%),"1,643 (28.1%)"
+detected under both,470 (55.5%),"1,594 (27.3%)"
+lost to the availability clock,6 (0.71%),117 (2.00%)
+gained under availability clock,9 (1.06%),49 (0.84%)
+detected under neither,362 (42.7%),"4,086 (69.9%)"
+"median lead, observation clock (h)",2.3,5.8
+"median lead, availability clock (h)",2.3,5.8
+median lead lost among both-detected (h),0.00,0.00
+mean lead lost among both-detected (h),0.05,0.22
+lost > 1 h,5 (1.1%),59 (3.7%)
+lost > 2 h,4 (0.9%),32 (2.0%)
+lost > 4 h,3 (0.6%),17 (1.1%)

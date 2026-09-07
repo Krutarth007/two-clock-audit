@@ -1,0 +1,7 @@
+,eICU-CRD
+results with entry offset present,"9,367,414 (100.0%)"
+entry offset identical to observation offset,"1,893,470 (20.2%)"
+entry offset earlier than observation offset,"568,892 (6.1%)"
+"entry offset later, 1-60 min","5,053,981 (54.0%)"
+"entry offset later, 61-360 min","1,780,178 (19.0%)"
+"entry offset later, >360 min","70,893 (0.8%)"

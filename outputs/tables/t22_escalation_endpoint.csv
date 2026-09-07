@@ -1,0 +1,8 @@
+,MIMIC-IV,eICU-CRD
+stays,"48,736","92,342"
+"any escalation, n (%)","23,161 (47.5%)","31,021 (33.6%)"
+"escalation within 48 h, n (%)","22,441 (46.0%)","29,963 (32.4%)"
+"time to escalation h, median (IQR)",1.9 (0.4-4.4),1.2 (0.5-3.8)
+"first event = vasopressor, n","8,105","11,738"
+"first event = ventilation, n","14,226","17,082"
+"first event = rrt, n",830,"2,201"

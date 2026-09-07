@@ -1,0 +1,5 @@
+step,n_stays,excluded
+all first ICU stays,50920,0
+age 18-120,50920,0
+ICU stay 12-720 h,48736,2184
+valid ICU timestamps,48736,0

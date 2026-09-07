@@ -1,0 +1,8 @@
+,MIMIC-IV,eICU-CRD
+ICU stays,"48,736","120,354"
+Patients,"48,736","120,354"
+"Age, median (IQR)",66 (54-78),65 (53-77)
+"Female, n (%)","21,506 (44.1%)","55,101 (45.8%)"
+"ICU hours, median (IQR)",46.2 (27.2-86.6),43.4 (24.6-76.2)
+Sites,1,208
+"In-hospital mortality, n (%)","4,694 (9.6%)","10,142 (8.4%)"

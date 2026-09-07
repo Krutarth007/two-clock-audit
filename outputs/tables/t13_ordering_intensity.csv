@@ -1,0 +1,3 @@
+database,stays_with_labs,"results per stay, median (IQR)","results per 24h, median (IQR)"
+MIMIC-IV,48214,72 (38-131),33.7 (24.0-48.1)
+eICU-CRD,112468,38 (19-73),20.4 (14.8-28.1)

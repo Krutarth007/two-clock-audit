@@ -1,0 +1,13 @@
+,MIMIC-IV test,eICU-CRD external
+stays,6098.0,67167.0
+"alerts, observation clock",1477.0,15796.0
+"alerts, availability clock",1536.0,15329.0
+"alerts per 100 bed-days, obs",19.68,20.03
+"alerts per 100 bed-days, avail",20.46,19.44
+"detections, obs",476.0,1711.0
+"detections, avail",479.0,1643.0
+"NNA, obs",3.1,9.2
+"NNA, avail",3.2,9.3
+detections lost per 100 stays,0.098,0.174
+detections lost per 1000 stays,0.98,1.74
+warning hours lost per 100 stays,0.4,0.5

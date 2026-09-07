@@ -1,0 +1,8 @@
+check,passed,observed,status
+Escalation events resolved in both databases,True,"MIMIC 23,161, eICU 31,021",PASS
+Event rate is in a workable range (0.2-10% of hours),True,3.00% of scoring hours,PASS
+The two clock matrices genuinely differ,True,median 4.7% of hours discordant,PASS
+Staleness increases under the availability clock,True,8.13 h -> 8.69 h,PASS
+Model discriminates above chance,True,AUROC 0.8241 on the observation clock,PASS
+A clock gap is present and in the expected direction,True,+0.0019 AUROC,PASS
+Comparator is computable on most scoring hours,True,NEWS2 available for 100.0% of hours,PASS

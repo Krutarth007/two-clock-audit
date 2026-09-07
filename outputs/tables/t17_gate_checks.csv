@@ -1,0 +1,8 @@
+check,passed,observed,status
+Latency is measurable in MIMIC-IV,True,100.0% of rows have a valid interval,PASS
+Median latency is operationally meaningful (>15 min),True,median 52 min,PASS
+Internal control holds (core slower than point of care),True,core 60 min vs point of care 3 min,PASS
+Tail is long enough to displace hourly scoring (p90 > 60 min),True,p90 96 min,PASS
+Record incompleteness in the early window is material (>5% invisible at h6),True,9.0% invisible at hour 6; 1.8% at hour 24,PASS
+Timestamp inconsistencies are rare (<2% negative),True,0.00% negative,PASS
+eICU carries usable latency signal,True,"78.4% non-zero (informational, not blocking)",PASS

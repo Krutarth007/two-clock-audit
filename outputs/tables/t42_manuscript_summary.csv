@@ -1,0 +1,14 @@
+,MIMIC-IV test,eICU-CRD external
+Stays,"6,098","67,167"
+Stays with escalation,847,"5,846"
+Alert budget (per 100 bed-days),20,20
+"Detection rate, observation clock",56.2%,29.3%
+"Detection rate, availability clock",56.6%,28.1%
+"Detection rate, NEWS2 (at its own workload)",11.7%,8.4%
+Model detection at NEWS2 workload,50.8%,15.2%
+"Median lead, observation clock",2.3 h,5.8 h
+"Median lead, availability clock",2.3 h,5.8 h
+Median warning lost per patient,0.00 h,0.00 h
+Patients losing > 1 h of warning,1.1%,3.7%
+Patients losing > 4 h of warning,0.6%,1.1%
+Detections lost per 1000 stays,0.98,1.74

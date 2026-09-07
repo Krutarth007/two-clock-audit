@@ -1,0 +1,11 @@
+cohort,budget_per_100_beddays,threshold,achieved_rate,bed_days
+MIMIC-IV test,5,0.53175,5.04,7505.8
+MIMIC-IV test,10,0.31304,10.07,7505.8
+MIMIC-IV test,20,0.18522,19.68,7505.8
+MIMIC-IV test,40,0.10594,40.12,7505.8
+MIMIC-IV test,80,0.06264,79.02,7505.8
+eICU-CRD external,5,0.38808,5.09,78846.2
+eICU-CRD external,10,0.30257,9.99,78846.2
+eICU-CRD external,20,0.22058,20.03,78846.2
+eICU-CRD external,40,0.15256,39.89,78846.2
+eICU-CRD external,80,0.10287,78.78,78846.2

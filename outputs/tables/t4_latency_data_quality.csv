@@ -1,0 +1,4 @@
+source,n_results,missing_n,missing_pct,negative_n,negative_pct,exact_zero_n,exact_zero_pct,gt_24h_n,gt_24h_pct,analytic_n,analytic_pct,gt_336h_n,gt_336h_pct
+MIMIC-IV laboratory,6579894,1,0.0,193,0.003,1852,0.028,1353.0,0.021,6578347,99.976,,
+eICU-CRD laboratory,9367414,0,0.0,568892,6.073,1893470,20.213,21580.0,0.23,8776942,93.697,,
+MIMIC-IV microbiology,319130,1167,0.366,1,0.0,0,0.0,,,309328,96.929,8634.0,2.705

@@ -1,0 +1,10 @@
+metric,MIMIC-IV test,eICU-CRD external
+"median score, obs",0.01409,0.03389
+"median score, avail",0.0138,0.0337
+"mean score, obs",0.02915,0.05007
+"mean score, avail",0.02882,0.04953
+hours where avail score is higher (%),4.85,3.98
+hours where avail score is lower (%),7.92,5.53
+"alerts, obs",1477.0,15796.0
+"alerts, avail",1536.0,15329.0
+alert volume change (%),3.99,-2.96

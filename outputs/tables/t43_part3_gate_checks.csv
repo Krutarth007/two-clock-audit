@@ -1,0 +1,7 @@
+check,passed,observed,status
+Alert budgets achieved within tolerance,True,max deviation 1.22,PASS
+Lead time is lost in the expected direction,True,median 0.00 h,PASS
+A meaningful minority lose more than an hour,False,1.1% of both-detected stays,REVIEW
+The model beats the bedside score on detection,True,model versus NEWS2 at matched workload,PASS
+Culture results frequently arrive after the escalation,True,88.6% of stays,PASS
+Findings are stable across suppression windows,True,sd 0.000 h,PASS

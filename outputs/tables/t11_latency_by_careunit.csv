@@ -1,0 +1,10 @@
+first_careunit,n,mean,p10,p25,p50,p75,p90,p95,p99
+Cardiac Vascular Intensive Care Unit (CVICU),1340086,38.1,2.0,3.0,32.0,60.0,81.0,98.0,163.0
+Trauma SICU (TSICU),879244,50.8,3.0,22.0,49.0,68.0,89.0,108.0,184.0
+Surgical Intensive Care Unit (SICU),1003944,55.9,3.0,31.0,54.0,72.0,95.0,116.0,203.0
+Medical Intensive Care Unit (MICU),1305648,58.0,3.0,31.0,55.0,75.0,98.0,121.0,233.0
+Medical/Surgical Intensive Care Unit (MICU/SICU),974724,61.0,3.0,36.0,56.0,76.0,102.0,128.0,272.0
+Coronary Care Unit (CCU),719321,60.3,3.0,33.0,57.0,77.0,104.0,129.0,247.0
+Neuro Surgical Intensive Care Unit (Neuro SICU),211885,64.5,6.0,41.0,59.0,81.0,111.0,136.0,226.0
+Neuro Intermediate,100365,79.3,33.0,51.0,73.0,100.0,130.0,152.0,215.0
+Neuro Stepdown,43130,86.6,37.0,55.0,78.0,110.0,144.0,168.0,242.0

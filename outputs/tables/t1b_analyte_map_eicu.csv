@@ -1,0 +1,32 @@
+analyte,turnaround_class,labname,n_rows
+ph,poc,pH,413071
+pco2,poc,paCO2,416467
+po2,poc,paO2,420762
+base_excess,poc,Base Excess,328813
+lactate,poc,lactate,205591
+glucose,core,glucose,1319496
+sodium,core,sodium,1393205
+potassium,core,potassium,1493261
+chloride,core,chloride,1283839
+bicarbonate,core,bicarbonate,1199866
+anion_gap,core,anion gap,1024278
+urea_nitrogen,core,BUN,1270484
+creatinine,core,creatinine,1277760
+calcium_total,core,calcium,1226978
+magnesium,core,magnesium,648642
+phosphate,core,phosphate,425439
+albumin,core,albumin,506025
+bilirubin_total,core,total bilirubin,427307
+alt,core,ALT (SGPT),434605
+ast,core,AST (SGOT),437311
+wbc,core,WBC x 1000,1134952
+hemoglobin,core,Hgb,1298708
+hematocrit,core,Hct,1279704
+platelet,core,platelets x 1000,1149488
+inr,core,PT - INR,402092
+pt,core,PT,389725
+ptt,core,PTT,285251
+troponin_t,send,troponin - T,39864
+crp,send,CRP,12932
+bnp,send,BNP,46406
+fibrinogen,send,fibrinogen,38800

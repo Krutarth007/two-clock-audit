@@ -1,0 +1,9 @@
+,MIMIC-IV test,eICU-CRD external
+"median lead, obs (h)",2.27,5.85
+  95% CI,"(1.867, 2.617)","(5.433, 6.35)"
+"median lead, avail (h)",2.27,5.85
+ 95% CI,"(1.933, 2.65)","(5.383, 6.467)"
+median lead lost (h),0.0,0.0
+95% CI,"(0.0, 0.0)","(0.0, 0.0)"
+"detections lost, % of event stays",0.708,2.001
+95% CI ,"(0.236, 1.299)","(1.659, 2.361)"

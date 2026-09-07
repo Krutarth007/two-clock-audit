@@ -1,0 +1,55 @@
+analyte,turnaround_class,itemid,label,fluid,category
+ph,poc,50820,pH,Blood,Blood Gas
+pco2,poc,50818,pCO2,Blood,Blood Gas
+po2,poc,50821,pO2,Blood,Blood Gas
+base_excess,poc,50802,Base Excess,Blood,Blood Gas
+lactate,poc,50813,Lactate,Blood,Blood Gas
+lactate,poc,52442,Lactate,Blood,Blood Gas
+lactate,poc,53154,Lactate,Blood,Chemistry
+glucose,core,50809,Glucose,Blood,Blood Gas
+glucose,core,50931,Glucose,Blood,Chemistry
+glucose,core,52569,Glucose,Blood,Chemistry
+sodium,core,50983,Sodium,Blood,Chemistry
+sodium,core,52623,Sodium,Blood,Chemistry
+potassium,core,50971,Potassium,Blood,Chemistry
+potassium,core,52610,Potassium,Blood,Chemistry
+chloride,core,50902,Chloride,Blood,Chemistry
+chloride,core,52535,Chloride,Blood,Chemistry
+bicarbonate,core,50882,Bicarbonate,Blood,Chemistry
+anion_gap,core,50868,Anion Gap,Blood,Chemistry
+anion_gap,core,52500,Anion Gap,Blood,Chemistry
+urea_nitrogen,core,51006,Urea Nitrogen,Blood,Chemistry
+urea_nitrogen,core,52647,Urea Nitrogen,Blood,Chemistry
+creatinine,core,50912,Creatinine,Blood,Chemistry
+creatinine,core,52546,Creatinine,Blood,Chemistry
+calcium_total,core,50893,"Calcium, Total",Blood,Chemistry
+magnesium,core,50960,Magnesium,Blood,Chemistry
+phosphate,core,50970,Phosphate,Blood,Chemistry
+albumin,core,50862,Albumin,Blood,Chemistry
+albumin,core,53085,Albumin,Blood,Chemistry
+bilirubin_total,core,50885,"Bilirubin, Total",Blood,Chemistry
+bilirubin_total,core,53089,"Bilirubin, Total",Blood,Chemistry
+alt,core,50861,Alanine Aminotransferase (ALT),Blood,Chemistry
+ast,core,50878,Asparate Aminotransferase (AST),Blood,Chemistry
+wbc,core,51301,White Blood Cells,Blood,Hematology
+wbc,core,51755,White Blood Cells,Blood,Chemistry
+wbc,core,51756,White Blood Cells,Blood,Chemistry
+hemoglobin,core,50811,Hemoglobin,Blood,Blood Gas
+hemoglobin,core,51222,Hemoglobin,Blood,Hematology
+hemoglobin,core,51640,Hemoglobin,Blood,Chemistry
+hematocrit,core,51221,Hematocrit,Blood,Hematology
+hematocrit,core,51638,Hematocrit,Blood,Chemistry
+hematocrit,core,51639,Hematocrit,Blood,Chemistry
+hematocrit,core,52028,Hematocrit,Blood,Blood Gas
+platelet,core,51265,Platelet Count,Blood,Hematology
+platelet,core,51704,Platelet Count,Blood,Chemistry
+inr,core,51237,INR(PT),Blood,Hematology
+inr,core,51675,INR(PT),Blood,Chemistry
+pt,core,51274,PT,Blood,Hematology
+pt,core,52921,PT,Blood,Hematology
+ptt,core,51275,PTT,Blood,Hematology
+ptt,core,52923,PTT,Blood,Hematology
+troponin_t,send,51003,Troponin T,Blood,Chemistry
+crp,send,50889,C-Reactive Protein,Blood,Chemistry
+bnp,send,50963,NTproBNP,Blood,Chemistry
+fibrinogen,send,51214,"Fibrinogen, Functional",Blood,Hematology

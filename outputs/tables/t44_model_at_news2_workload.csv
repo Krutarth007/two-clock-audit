@@ -1,0 +1,10 @@
+metric,MIMIC-IV test,eICU-CRD external
+matched alert rate (per 100 bed-days),13.68,7.47
+"model detection, obs (%)",50.77,15.24
+"model detection, avail (%)",51.24,14.27
+NEWS2 detection (%),11.69,8.45
+"model median lead, obs (h)",1.84,4.93
+NEWS2 median lead (h),6.78,7.11
+model NNA,2.4,6.6
+NEWS2 NNA,10.5,11.7
+advantage over NEWS2 (pp),39.08,6.79

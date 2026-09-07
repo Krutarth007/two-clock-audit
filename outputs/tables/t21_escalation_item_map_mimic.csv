@@ -1,0 +1,14 @@
+event,linksto,itemid,label,category
+vasopressor,inputevents,221289,Epinephrine,Medications
+vasopressor,inputevents,221662,Dopamine,Medications
+vasopressor,inputevents,221749,Phenylephrine,Medications
+vasopressor,inputevents,221906,Norepinephrine,Medications
+vasopressor,inputevents,222315,Vasopressin,Medications
+ventilation,procedureevents,225792,Invasive Ventilation,2-Ventilation
+rrt,procedureevents,224270,Dialysis Catheter,Access Lines - Invasive
+rrt,procedureevents,225436,CRRT Filter Change,Dialysis
+rrt,procedureevents,225441,Hemodialysis,4-Procedures
+rrt,procedureevents,225802,Dialysis - CRRT,Dialysis
+rrt,procedureevents,225803,Dialysis - CVVHD,Dialysis
+rrt,procedureevents,225805,Peritoneal Dialysis,Dialysis
+rrt,procedureevents,225809,Dialysis - CVVHDF,Dialysis
