@@ -1,0 +1,81 @@
+# =======================================================================
+# CRITICAL: no patient-level data may ever enter this repository.
+# MIMIC-IV and eICU-CRD are distributed under PhysioNet data use
+# agreements that prohibit redistribution, including of derived
+# record-level files. The rules below are deliberately broad.
+# =======================================================================
+
+# --- source databases ---------------------------------------------------
+mimic-iv*/
+eicu*/
+*physionet*/
+hirid*/
+sicdb*/
+data/
+raw/
+
+# --- derived record-level artifacts (cohorts, features, predictions) ----
+cache/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.duckdb
+*.sqlite
+*.sqlite3
+_spill*/
+
+# --- trained models -----------------------------------------------------
+models/
+*.joblib
+
+# --- bulk tabular files -------------------------------------------------
+# Result tables under outputs/tables/ are aggregate only and ARE tracked;
+# force-add them with:  git add -f outputs/tables/*.csv
+*.csv
+*.csv.gz
+*.tsv
+!outputs/tables/*.csv
+
+# --- credentials --------------------------------------------------------
+.env
+.env.*
+*credentials*
+*secret*
+*.pem
+*.key
+.netrc
+
+# --- python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# --- jupyter ------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# --- os / editor --------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- logs and scratch ---------------------------------------------------
+logs/
+*.log
+scratch/
+tmp/

@@ -1,0 +1,28 @@
+# Two-clock audit — analysis dependencies
+# Verified on Python 3.11.5 (Windows 10).
+# Pins are lower bounds; the versions actually used are noted per package.
+
+# --- core data handling -------------------------------------------------
+pandas>=2.0,<3.0          # used: 2.3.3
+numpy>=1.24,<2.0          # used: 1.24.4
+pyarrow>=14.0             # used: 24.0.0  (Parquet caching; required, not optional)
+
+# --- query engine -------------------------------------------------------
+# Strongly recommended. The notebooks fall back to chunked pandas without it,
+# but the fallback is roughly an order of magnitude slower on labevents.csv
+# (~13 GB) and chartevents.csv. Both paths were verified to give identical
+# results. DuckDB >= 0.9 is required for the ASOF JOIN used in Part 2.
+duckdb>=0.9.0             # used: 1.x
+
+# --- modeling -----------------------------------------------------------
+scikit-learn>=1.3         # HistGradientBoostingClassifier, metrics
+
+# --- figures ------------------------------------------------------------
+matplotlib>=3.7
+
+# --- notebook environment ----------------------------------------------
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# Standard library only, no install needed:
+#   hashlib, json, pathlib, dataclasses, datetime, pickle, gc, re, os, sys
