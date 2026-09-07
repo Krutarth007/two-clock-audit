@@ -1,0 +1,314 @@
+{
+  "generated_utc": "2026-09-07T20:21:54+00:00",
+  "config": {
+    "alert_budgets": [
+      5,
+      10,
+      20,
+      40,
+      80
+    ],
+    "boot_seed": 20260906,
+    "culture_lookback_hours": 24.0,
+    "max_lead_hours": 48.0,
+    "min_lead_hours": 0.0,
+    "n_boot": 1000,
+    "nb_thresholds": [
+      0.005,
+      0.01,
+      0.015,
+      0.02,
+      0.025,
+      0.03,
+      0.035,
+      0.04,
+      0.045,
+      0.05,
+      0.055,
+      0.06,
+      0.065,
+      0.07,
+      0.075,
+      0.08,
+      0.085,
+      0.09,
+      0.095,
+      0.1
+    ],
+    "out_root": "C:\\Research_Paper_2\\result_availability_audit",
+    "primary_budget": 20,
+    "seed": 20260906,
+    "silence_grid": [
+      2.0,
+      4.0,
+      8.0
+    ],
+    "silence_hours": 4.0
+  },
+  "config_sha256": "e8b65a35112b332a110d744750fab192d9503df190c094732be27a2731423263",
+  "environment": {
+    "python": "3.11.5",
+    "platform": "Windows 10",
+    "pandas": "2.3.3",
+    "numpy": "1.24.4",
+    "pyarrow": "24.0.0",
+    "cpu_count": 14
+  },
+  "records": [
+    {
+      "role": "table",
+      "name": "t30_threshold_calibration",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t30_threshold_calibration.csv",
+      "bytes": 474,
+      "digest": "36c1278ae1c3d963ef98e6523fa1cfaba2f648c7d6b3433eb32a000d09a75192",
+      "recorded_utc": "2026-09-07T20:21:27+00:00",
+      "rows": 10,
+      "chain_after": "36a8fd21f93bce9fe0164371e6504ae1e3e2624db4caa5ee8e7f00e59859c033"
+    },
+    {
+      "role": "table",
+      "name": "t31_threshold_calibration_news2",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t31_threshold_calibration_news2.csv",
+      "bytes": 357,
+      "digest": "a47c32f883af9817e327bed19bc935b73544f17ec5161bb3a214f4b2df41a48c",
+      "recorded_utc": "2026-09-07T20:21:41+00:00",
+      "rows": 10,
+      "chain_after": "b3135ffc9429acb26ce9f9be2c3cab7dd2552a7137d95087df8238d40fe02de6"
+    },
+    {
+      "role": "table",
+      "name": "t32_detection_and_lead_time",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t32_detection_and_lead_time.csv",
+      "bytes": 685,
+      "digest": "9fcf1205f7a087e70b3efd0ac07948e53caf64e130f262d3fc901585abd6700a",
+      "recorded_utc": "2026-09-07T20:21:41+00:00",
+      "rows": 14,
+      "chain_after": "7a7c10b7369015e1b285480c8ce8c14c506a57f131852b87679303cedd5998e5"
+    },
+    {
+      "role": "table",
+      "name": "t33_alert_burden_and_loss",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t33_alert_burden_and_loss.csv",
+      "bytes": 470,
+      "digest": "769e025b07ab5c13e8a50d7452064e2bf67136128430719cb04d34b08d2d337d",
+      "recorded_utc": "2026-09-07T20:21:41+00:00",
+      "rows": 12,
+      "chain_after": "bf8aa712184e6de12e02c5d2665b934b1b2d68ad9bac0c75813f8dd1f0131690"
+    },
+    {
+      "role": "table",
+      "name": "t45_alert_volume_asymmetry",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t45_alert_volume_asymmetry.csv",
+      "bytes": 381,
+      "digest": "30e7203925c8c8001639a3a2ca3c735ec0b46fc7c5fa97a882873f31a59f593e",
+      "recorded_utc": "2026-09-07T20:21:41+00:00",
+      "rows": 9,
+      "chain_after": "60bc0beb66a5e5df40da717635064c68ee2709cf464f7b725d993f2bcea5d03c"
+    },
+    {
+      "role": "table",
+      "name": "t34_bootstrap_intervals",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t34_bootstrap_intervals.csv",
+      "bytes": 345,
+      "digest": "54ae3d0ef852d698129bdda9f02ced8e5a8b73a8a9d1ef2d9dbbcfc14e17b153",
+      "recorded_utc": "2026-09-07T20:21:42+00:00",
+      "rows": 8,
+      "chain_after": "e0519725b0f8c382dce8f26c1b74c8398d4faf5d57f6696b28f332ef6f4ca931"
+    },
+    {
+      "role": "table",
+      "name": "t35_comparator_arm",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t35_comparator_arm.csv",
+      "bytes": 467,
+      "digest": "a578a1f064cf25d0ff80a4cff95b0edbb1a17eab946ef631188cdfd6f2d362af",
+      "recorded_utc": "2026-09-07T20:21:42+00:00",
+      "rows": 6,
+      "chain_after": "747b2a8f27ac7caa0fe4d7564037cd10a4d03c298e90dc1b86de2a49f2abf867"
+    },
+    {
+      "role": "table",
+      "name": "t44_model_at_news2_workload",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t44_model_at_news2_workload.csv",
+      "bytes": 355,
+      "digest": "7427a4a6ca8fd92d5a1415636cfd951c1e1b9aa6054f5716f01d7bd71790c2b8",
+      "recorded_utc": "2026-09-07T20:21:43+00:00",
+      "rows": 9,
+      "chain_after": "678020166f44e9f2ac6e331e19589e1cb9a4acbd1b02eed0ac568decf87444b4"
+    },
+    {
+      "role": "table",
+      "name": "t36_budget_sweep",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t36_budget_sweep.csv",
+      "bytes": 888,
+      "digest": "fdbb8ac18f2b234aeb29f3a2b3de6823e4c26e0a50a329bc7bb209aff2a56ec5",
+      "recorded_utc": "2026-09-07T20:21:44+00:00",
+      "rows": 10,
+      "chain_after": "ded945ff738b9f45791aa2db5b4d9d4f5729303aa255be7c34f76cfa35d8f46d"
+    },
+    {
+      "role": "table",
+      "name": "t37_net_benefit",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t37_net_benefit.csv",
+      "bytes": 2595,
+      "digest": "cd7a8923bb9ae6b68e8f35b7c6489a597e07f84f04086461b695af9004349155",
+      "recorded_utc": "2026-09-07T20:21:46+00:00",
+      "rows": 40,
+      "chain_after": "a5c7474394da9cb95637bd693c1eb48e7cbc7467c07c1cdeffba4f16bf11e16f"
+    },
+    {
+      "role": "table",
+      "name": "t38_culture_knowledge_gap",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t38_culture_knowledge_gap.csv",
+      "bytes": 267,
+      "digest": "befca95e3eb8cda26f76ad9946d5cc709cb161bf597cb5310c50de8a51bdaa4b",
+      "recorded_utc": "2026-09-07T20:21:47+00:00",
+      "rows": 4,
+      "chain_after": "3c98e1a2f8867680d5c4edb16c13c64f3d1d351bdbd688c3ddc9a2dfc43466a9"
+    },
+    {
+      "role": "table",
+      "name": "t39_culture_visibility_curve",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t39_culture_visibility_curve.csv",
+      "bytes": 1090,
+      "digest": "3e023c6e61a45f459c86c75a6f10743c030ffb619113d33169a1ea62481f60f8",
+      "recorded_utc": "2026-09-07T20:21:47+00:00",
+      "rows": 48,
+      "chain_after": "89d29c91d96f59ed98fe3569cbaa46355bbdd2c786066c2a76601e1ce3a80854"
+    },
+    {
+      "role": "table",
+      "name": "t40_sensitivity_suppression",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t40_sensitivity_suppression.csv",
+      "bytes": 356,
+      "digest": "00c1b484b219d960ad3d0c0c3b695ae8421512c55f54612fd2ba4a93b87e29b8",
+      "recorded_utc": "2026-09-07T20:21:49+00:00",
+      "rows": 6,
+      "chain_after": "93c8610c4b618f8f02a5fdf8f9c314cdf9e167e007d8028922ed623cba833ece"
+    },
+    {
+      "role": "table",
+      "name": "t41_latency_versus_scoring_interval",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t41_latency_versus_scoring_interval.csv",
+      "bytes": 250,
+      "digest": "a0d5a5ff6c1cca243f327b33a7cfc0ada287e2670d0808bb22b0c07dcffa801f",
+      "recorded_utc": "2026-09-07T20:21:50+00:00",
+      "rows": 3,
+      "chain_after": "a6b58aa80a70e889569bfc2dcc113660175f24c441a97e504be831db3081b6cd"
+    },
+    {
+      "role": "figure",
+      "name": "f11_lead_time_distribution",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f11_lead_time_distribution.png",
+      "bytes": 75574,
+      "digest": "ba52cf23343fcb6243089245d1d49748e097a93c3a8b0b27e568e66b18462e54",
+      "recorded_utc": "2026-09-07T20:21:52+00:00",
+      "chain_after": "6ce4f44f27a9eb803b4b42dedf217bf22656287937325cc3db3160e4256b650c"
+    },
+    {
+      "role": "figure",
+      "name": "f12_lead_time_lost",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f12_lead_time_lost.png",
+      "bytes": 74243,
+      "digest": "259b7f5ef2341f748f1075576901d519d36f80c57e04e1843e86039e1a3b1bc0",
+      "recorded_utc": "2026-09-07T20:21:52+00:00",
+      "chain_after": "49655125fae8fd672445d8523bd0824ef4de7731f584937924ccbe25741bb483"
+    },
+    {
+      "role": "figure",
+      "name": "f13_workload_detection",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f13_workload_detection.png",
+      "bytes": 123737,
+      "digest": "e3e494c931eef462e51601e277221f8f5495e314c688bd1d205f878b2ba3b9c2",
+      "recorded_utc": "2026-09-07T20:21:53+00:00",
+      "chain_after": "2596b1e4b0d2b0fe55c11ae847464812f5f8c65f65c37f1171b11a50227432ee"
+    },
+    {
+      "role": "figure",
+      "name": "f14_net_benefit",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f14_net_benefit.png",
+      "bytes": 121596,
+      "digest": "632886c604f26e733c2565f4a5e5f43d66f6b0601659ace4d608f669213b6ce7",
+      "recorded_utc": "2026-09-07T20:21:53+00:00",
+      "chain_after": "db8b98e8987f082f1da77a6f12c62d554340a08c0b08132b65798c7906fe68de"
+    },
+    {
+      "role": "figure",
+      "name": "f15_culture_knowledge_gap",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f15_culture_knowledge_gap.png",
+      "bytes": 104021,
+      "digest": "5a3c81c03e03e2564df2b3f2eeddd5dc7ebe2ce4ccd9ccfa1c2e1bf88ccd0796",
+      "recorded_utc": "2026-09-07T20:21:54+00:00",
+      "chain_after": "427f25bac3299684d86e975c3b1ff58cccbb2e9a7771b797803dbae749b44f74"
+    },
+    {
+      "role": "table",
+      "name": "t42_manuscript_summary",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t42_manuscript_summary.csv",
+      "bytes": 537,
+      "digest": "5e7d33c711b80ed05cb194dc64e023f270b7820f44c58fa8449a0044512d286b",
+      "recorded_utc": "2026-09-07T20:21:54+00:00",
+      "rows": 12,
+      "chain_after": "ce14c3ecc952699bc218e4e00f5d45993116e26ceb91038674df88b587102dce"
+    },
+    {
+      "role": "table",
+      "name": "t43_part3_gate_checks",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t43_part3_gate_checks.csv",
+      "bytes": 503,
+      "digest": "612ae6a3f70e1a3dedbd5095e2442bd7aaa30e565d6fc941cd2b182c0d776651",
+      "recorded_utc": "2026-09-07T20:21:54+00:00",
+      "rows": 6,
+      "chain_after": "f9b480507372fe29c2b4f122ed8616991c1ef24ea476b6430daa4b8eb9d1076d"
+    }
+  ],
+  "timings": {
+    "load": 0.62,
+    "threshold-calibration": 2.42,
+    "threshold-calibration-comparator": 13.35,
+    "detection-primary": 0.25,
+    "bootstrap": 0.83,
+    "comparator-arm": 0.39,
+    "workload-matched-comparator": 0.35,
+    "budget-sweep": 1.34,
+    "net-benefit": 2.16,
+    "culture-gap": 0.11,
+    "culture-visibility": 0.14,
+    "sensitivity-suppression": 1.98
+  },
+  "terminal_chain_sha256": "f9b480507372fe29c2b4f122ed8616991c1ef24ea476b6430daa4b8eb9d1076d",
+  "prior_chains": "c33a334d6c4d9b9a3c109f96753b8ccf3ecc5325a1566341cad414a753eaddd047ff1b281a4b0ea4e60da8adcf9600a7f763e66be6c0341ed482972e134f8094",
+  "part3_summary": {
+    "primary_alert_budget_per_100_beddays": 20,
+    "suppression_hours": 4.0,
+    "cohorts": {
+      "MIMIC-IV test": {
+        "stays": 6098,
+        "event_stays": 847,
+        "detection_rate_obs": 0.5619834710743802,
+        "detection_rate_avail": 0.5655253837072018,
+        "median_lead_obs_h": 2.2666666666666675,
+        "median_lead_avail_h": 2.2666666666666657,
+        "median_lead_lost_h": 0.0,
+        "pct_losing_over_1h": 1.0638297872340425,
+        "pct_losing_over_4h": 0.6382978723404255,
+        "detections_lost_pct": 0.7083825265643447,
+        "alerts_per_100_beddays_obs": 19.678137438311527
+      },
+      "eICU-CRD external": {
+        "stays": 67167,
+        "event_stays": 5846,
+        "detection_rate_obs": 0.2926787547040712,
+        "detection_rate_avail": 0.28104686965446457,
+        "median_lead_obs_h": 5.85,
+        "median_lead_avail_h": 5.85,
+        "median_lead_lost_h": 0.0,
+        "pct_losing_over_1h": 3.7013801756587204,
+        "pct_losing_over_4h": 1.066499372647428,
+        "detections_lost_pct": 2.0013684570646597,
+        "alerts_per_100_beddays_obs": 20.03392678789416
+      }
+    },
+    "culture_result_after_event_pct": 88.55163984518232,
+    "culture_positive_result_after_event_pct": 85.60235063663075
+  }
+}

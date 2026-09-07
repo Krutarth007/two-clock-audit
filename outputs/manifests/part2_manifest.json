@@ -1,0 +1,379 @@
+{
+  "generated_utc": "2026-09-07T05:37:51+00:00",
+  "config": {
+    "duckdb_memory_limit_gb": 6,
+    "duckdb_threads": 0,
+    "early_stopping_rounds": 25,
+    "eicu_exclude_zero_latency_hospitals": true,
+    "eicu_root": "C:\\Users\\kruta\\Downloads\\eicu-collaborative-research-database-2.0",
+    "eicu_zero_latency_median_threshold": 0.0,
+    "es_eval_every": 25,
+    "es_patience_evals": 5,
+    "exclude_prior_escalation": true,
+    "force_rebuild": false,
+    "full_hash_max_gb": 2.0,
+    "grid_step_hours": 1,
+    "hgb_l2": 1.0,
+    "hgb_learning_rate": 0.06,
+    "hgb_max_iter": 2000,
+    "hgb_max_leaf_nodes": 31,
+    "hgb_min_samples_leaf": 60,
+    "horizon_hours": 48,
+    "include_eicu": true,
+    "lab_panel": [
+      "creatinine",
+      "urea_nitrogen",
+      "sodium",
+      "potassium",
+      "bicarbonate",
+      "chloride",
+      "anion_gap",
+      "glucose",
+      "lactate",
+      "wbc",
+      "hemoglobin",
+      "platelet",
+      "inr",
+      "ph",
+      "po2",
+      "pco2",
+      "base_excess",
+      "bilirubin_total"
+    ],
+    "max_staleness_hours": 72.0,
+    "mimic_root": "C:\\mimic-iv-2.2",
+    "min_lead_hours": 0.0,
+    "min_scoring_hour": 6,
+    "out_root": "C:\\Research_Paper_2\\result_availability_audit",
+    "pandas_chunk_rows": 4000000,
+    "prediction_horizon_hours": 12,
+    "seed": 20260906,
+    "test_eras": [
+      "2017 - 2019"
+    ],
+    "train_eras": [
+      "2008 - 2010",
+      "2011 - 2013"
+    ],
+    "valid_eras": [
+      "2014 - 2016"
+    ],
+    "vitals_window_hours": 6
+  },
+  "config_sha256": "e591aa162f17b4d562f2a56cdee9334a5abe7c01b40d537de4d41f65cdc8deb1",
+  "environment": {
+    "python": "3.11.5",
+    "platform": "Windows 10",
+    "pandas": "2.3.3",
+    "numpy": "1.24.4",
+    "pyarrow": "24.0.0",
+    "sklearn": "1.3.0",
+    "duckdb": "1.5.5",
+    "cpu_count": 14
+  },
+  "records": [
+    {
+      "role": "table",
+      "name": "t20_eicu_excluded_hospitals",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t20_eicu_excluded_hospitals.csv",
+      "bytes": 227,
+      "digest": "b35f0520f7406ac1cd15a0cf7f8758a40a6387ba3b84b6b4aec02b8f2e803f0e",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:49+00:00",
+      "rows": 43,
+      "chain_after": "fcfdd04ac8225e92ace707b95656bcae17bdbe0e9211c9ec527a50b156124c84"
+    },
+    {
+      "role": "table",
+      "name": "t21_escalation_item_map_mimic",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t21_escalation_item_map_mimic.csv",
+      "bytes": 789,
+      "digest": "9eebbad9531a431706e80a3feb58bd57157ac68679d38c84b1a52f54dcc94956",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:49+00:00",
+      "rows": 13,
+      "chain_after": "f59ac12afd105397bd67daebbe8e5db7d6d1ccfd622369cbcc07bd6287750c6f"
+    },
+    {
+      "role": "table",
+      "name": "t22_escalation_endpoint",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t22_escalation_endpoint.csv",
+      "bytes": 372,
+      "digest": "f578941e12fc907c0de924be147264d188e4961a61822aed2681da637d965e1c",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:50+00:00",
+      "rows": 7,
+      "chain_after": "e2fa4412942fb00584c3745b328b4b2ade1f23249826ce814d67e1d206e4ed6e"
+    },
+    {
+      "role": "table",
+      "name": "t23_vital_item_map_mimic",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t23_vital_item_map_mimic.csv",
+      "bytes": 608,
+      "digest": "5fcc198d3c9c6f81538a70505c995f688c71fab9f3c57b76699291a2afe830db",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:50+00:00",
+      "rows": 15,
+      "chain_after": "4471a106724dd8ab0792d18a320a44fef90426f9b782f410c53e9290ef724f1e"
+    },
+    {
+      "role": "table",
+      "name": "t24_scoring_grid",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t24_scoring_grid.csv",
+      "bytes": 219,
+      "digest": "303f7e8ba3b434a2aeceba343bcb15d756209639e7127ff0148456b0fb32d4e5",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:56+00:00",
+      "rows": 5,
+      "chain_after": "b45d2a5ffa02bfb43b4e58ff0ae7ea412f3d141e4c473df06ccdf3bc2e95182b"
+    },
+    {
+      "role": "table",
+      "name": "t25_feature_level_clock_gap",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t25_feature_level_clock_gap.csv",
+      "bytes": 1032,
+      "digest": "a907b0d096c0bee47b54848838fa4409ed1e6975c1f9b980c56729a70decbdd8",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:31:58+00:00",
+      "rows": 18,
+      "chain_after": "27532bde37785adc97a554008fe69328d08e22636e5dca6e4adcd575680a67b2"
+    },
+    {
+      "role": "cache",
+      "name": "comparator_mimic",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\cache\\comparator_mimic.parquet",
+      "bytes": 1321162,
+      "digest": "a068366c35bb609240d931b869949f55b1e6dde0cda0b2a0078c865076f8bc53",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:34:13+00:00",
+      "rows": 823501,
+      "cols": 8,
+      "chain_after": "0d785126a79489600abf588d2b6c0c64e65ad555ff95327228db1cc02ac1fb68"
+    },
+    {
+      "role": "cache",
+      "name": "comparator_eicu",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\cache\\comparator_eicu.parquet",
+      "bytes": 2080966,
+      "digest": "b5a7846b6f86d22c94e795658902775a50968dc3052fc4250b0b0147e64c029c",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:34:15+00:00",
+      "rows": 1892310,
+      "cols": 8,
+      "chain_after": "8a1ed73580decf0a571d3157cc80314e47cbfedf01ecde3fde02a727123b5fa6"
+    },
+    {
+      "role": "table",
+      "name": "t29_early_stopping_trace",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t29_early_stopping_trace.csv",
+      "bytes": 687,
+      "digest": "0d8884e0eaa21c0212eeac58eafe32fd55a3527774d96e5eab279c4d438571e6",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:00+00:00",
+      "rows": 21,
+      "chain_after": "eec290fcf07bd133c1ce98e9ff0b56127d66ea6bba900c81bac31801cbae7dd4"
+    },
+    {
+      "role": "figure",
+      "name": "f10_validation_curve",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f10_validation_curve.png",
+      "bytes": 90912,
+      "digest": "adde1429e80a04a9b569253269ee8e77f3995b1874725390f134cabf36648627",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:00+00:00",
+      "chain_after": "1779a607598fb5a93f6c314c3e1088f0a4f3f746b6611dcd4cd401e75ec0b952"
+    },
+    {
+      "role": "model",
+      "name": "model_obs",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\models\\model_obs.pkl",
+      "bytes": 630334,
+      "digest": "1173bd4f71147c2a9f604b50b91bad95ef8558ed9f1ca93e138e158638a7a06f",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:00+00:00",
+      "chain_after": "50569d7d2ad180ed60e66f4193f6c90c9143023a33b6400e34ff689eb94e9695"
+    },
+    {
+      "role": "model",
+      "name": "model_avail",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\models\\model_avail.pkl",
+      "bytes": 547600,
+      "digest": "ddbc60db29f45447129646f8033059a8c60e638f230f9c62ece9ea90c60fba7d",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:00+00:00",
+      "chain_after": "8c9b903a00161b51c77a1f9ae634d8e24be369fee15e7443fbd61a31d12d4038"
+    },
+    {
+      "role": "cache",
+      "name": "preds_mimic_test",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\cache\\preds_mimic_test.parquet",
+      "bytes": 4249803,
+      "digest": "617df588653611f0f67939c3a6d233c43a2fdb79423d92d66f0554707a1da483",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:05+00:00",
+      "rows": 180139,
+      "cols": 14,
+      "chain_after": "8d7edf198d4b73310a557390c1b257afad1147a038b7089c0e2684c753a3a350"
+    },
+    {
+      "role": "cache",
+      "name": "preds_eicu_external",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\cache\\preds_eicu_external.parquet",
+      "bytes": 32827205,
+      "digest": "86dd11697898f64b1be62dd34df33b21e8fe39d8a8edaed6e5f055b72d7d203c",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:37+00:00",
+      "rows": 1892310,
+      "cols": 14,
+      "chain_after": "5da5087b3d8b950c228f14599ab99a15e68ccb974bd8e2af3190747d27b50900"
+    },
+    {
+      "role": "table",
+      "name": "t26_discrimination_by_clock",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t26_discrimination_by_clock.csv",
+      "bytes": 1122,
+      "digest": "22b1e08acafacd23e8f54c946456a5cbec3ab4469b506fd9dafd48c8b87ada66",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:48+00:00",
+      "rows": 16,
+      "chain_after": "6607579ceb50bd5435ac4f2bf13899be06e569365fbd22d947020589d0ea6892"
+    },
+    {
+      "role": "table",
+      "name": "t27_clock_gap_by_hour",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t27_clock_gap_by_hour.csv",
+      "bytes": 607,
+      "digest": "7209005cb292ffad8e4b5b626a62f5bc4baa0a040bd7438e40a6ff03dbf6888e",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:51+00:00",
+      "rows": 10,
+      "chain_after": "d902b205b9b4ded5cb226975a36faba441a67bf1c6e31143f7391a309e74fcfb"
+    },
+    {
+      "role": "figure",
+      "name": "f9_clock_gap_by_hour",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\figures\\f9_clock_gap_by_hour.png",
+      "bytes": 103362,
+      "digest": "7a514b5d33e52185e8c739ac479e8600b8e3458e25444e81589fc54e4555ed03",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:51+00:00",
+      "chain_after": "e830731f638c3f0700e4c8cf377544ab6272082a9c32c7c26fef7a1e23fccbad"
+    },
+    {
+      "role": "table",
+      "name": "t28_part2_gate_checks",
+      "path": "C:\\Research_Paper_2\\result_availability_audit\\tables\\t28_part2_gate_checks.csv",
+      "bytes": 615,
+      "digest": "652b0815fe464de877162666da2d7b43fca59b0524bac77a3a7830eefbcbdf46",
+      "digest_method": "sha256_full",
+      "recorded_utc": "2026-09-07T05:37:51+00:00",
+      "rows": 7,
+      "chain_after": "47ff1b281a4b0ea4e60da8adcf9600a7f763e66be6c0341ed482972e134f8094"
+    }
+  ],
+  "timings": {
+    "load-part1": {
+      "seconds": 6.2,
+      "detail": {}
+    },
+    "events-mimic": {
+      "seconds": 0.26,
+      "detail": {}
+    },
+    "events-eicu": {
+      "seconds": 0.01,
+      "detail": {}
+    },
+    "vitals-mimic": {
+      "seconds": 1.48,
+      "detail": {}
+    },
+    "vitals-eicu": {
+      "seconds": 1.16,
+      "detail": {}
+    },
+    "grid-build": {
+      "seconds": 1.29,
+      "detail": {}
+    },
+    "vitals-features": {
+      "seconds": 123.99,
+      "detail": {}
+    },
+    "assemble-mimic": {
+      "seconds": 5.96,
+      "detail": {}
+    },
+    "assemble-eicu": {
+      "seconds": 9.3,
+      "detail": {}
+    },
+    "fit-observation-clock": {
+      "seconds": 77.74,
+      "detail": {}
+    },
+    "fit-availability-clock": {
+      "seconds": 69.89,
+      "detail": {}
+    },
+    "score-internal-test": {
+      "seconds": 4.11,
+      "detail": {}
+    },
+    "score-external": {
+      "seconds": 32.38,
+      "detail": {}
+    }
+  },
+  "terminal_chain_sha256": "47ff1b281a4b0ea4e60da8adcf9600a7f763e66be6c0341ed482972e134f8094",
+  "part1_terminal_chain": "c33a334d6c4d9b9a3c109f96753b8ccf3ecc5325a1566341cad414a753eaddd0",
+  "part2_summary": {
+    "mimic_scoring_hours": 823501,
+    "mimic_event_rate": 0.03001574982908339,
+    "mimic_stays_with_escalation": 23161,
+    "eicu_scoring_hours": 1892310,
+    "eicu_hospitals_retained": 165,
+    "n_features": 93,
+    "lab_panel": [
+      "creatinine",
+      "urea_nitrogen",
+      "sodium",
+      "potassium",
+      "bicarbonate",
+      "chloride",
+      "anion_gap",
+      "glucose",
+      "lactate",
+      "wbc",
+      "hemoglobin",
+      "platelet",
+      "inr",
+      "ph",
+      "po2",
+      "pco2",
+      "base_excess",
+      "bilirubin_total"
+    ],
+    "median_discordant_pct": 4.68,
+    "median_staleness_obs_h": 8.135,
+    "median_staleness_avail_h": 8.690000000000001,
+    "auroc": {
+      "MIMIC-IV test|trained_obs|scored_obs": 0.8241,
+      "MIMIC-IV test|trained_obs|scored_avail": 0.8222,
+      "MIMIC-IV test|trained_avail|scored_obs": 0.8243,
+      "MIMIC-IV test|trained_avail|scored_avail": 0.8233,
+      "MIMIC-IV test|NEWS2|latency-insensitive": 0.6124,
+      "MIMIC-IV test|qSOFA|latency-insensitive": 0.5905,
+      "MIMIC-IV test|NEWS2 (matched, no consciousness)|latency-insensitive": 0.6171,
+      "MIMIC-IV test|qSOFA (matched, no consciousness)|latency-insensitive": 0.5757,
+      "eICU-CRD external|trained_obs|scored_obs": 0.7171,
+      "eICU-CRD external|trained_obs|scored_avail": 0.7107,
+      "eICU-CRD external|trained_avail|scored_obs": 0.7296,
+      "eICU-CRD external|trained_avail|scored_avail": 0.7224,
+      "eICU-CRD external|NEWS2|latency-insensitive": 0.5794,
+      "eICU-CRD external|qSOFA|latency-insensitive": 0.5483,
+      "eICU-CRD external|NEWS2 (matched, no consciousness)|latency-insensitive": 0.5794,
+      "eICU-CRD external|qSOFA (matched, no consciousness)|latency-insensitive": 0.5483
+    }
+  }
+}
